@@ -1,0 +1,20 @@
+.Home {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18rem auto 20rem;
+  gap: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .Home{
+    grid-template-columns: 1fr;
+  }
+  .profile_side{
+    display: none;
+  }
+  .post_side{
+   width: full;
+  }
+  .right_side{
+    display: none;
+  }
+}
